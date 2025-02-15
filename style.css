@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+    --ff-marope: "Manrope", serif;
+}
+
+
+html,body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--dark-blue);
+    font-family: var(--ff-marope);
+    font-weight: 800;
+    height: 100vh;
+   
+}
+
+main {
+    background-color: var(--dark-grayish-blue);
+    border-radius: 15px;
+    padding: 3rem;
+    width: 47%;
+    margin: 0 auto;
+}
+
+#advice-tag {
+    font-size: 11px;
+    color: var(--neon-green);
+    letter-spacing: 4.5px;
+}
+
+#word-tag {
+    font-size: 28px;
+    color: var(--light-cyan);
+}
+
+.dice-circle {
+    background-color: var(--neon-green);
+    width: 57px;
+    height: 57px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.dice-circle:hover{
+    box-shadow: 0 0 18px var(--neon-green);
+    cursor: pointer;
+    transition: 0.03s ease-in-out;
+}
+
+
+
+.mobile {
+    padding: 10px 0 30px 0; 
+}
+
+.dice-image {
+    margin: 0 auto;
+    padding-top: 15.5px;
+}
+
+
+@media (max-width: 767px) {
+/* 
+    body {
+        margin: 0 17px;
+    } */
+   
+
+    main {
+        width: 93%;
+        padding: 2rem 1.4rem;
+    
+    }
+
+    .omo {
+        display: none;
+    }
+
+    #word-tag {
+        font-size: 25px;
+    }
+
+    .dice-circle {
+        background-color: var(--neon-green);
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+        border-radius: 100%;
+    }
+
+    .dice-image {
+        margin: 0 auto;
+        padding-top: 17.4px;
+    }
+
+
+
+    
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+
+    main {
+        width: 65%;
+    }
+
+    .dice-image {
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+    
+}
+
+
