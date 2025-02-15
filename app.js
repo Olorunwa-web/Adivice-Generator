@@ -18,5 +18,4 @@ async function fetchAdvice() {
     }
 }
 
-quoteBtn.addEventListener('click', fetchAdvice)
-window.addEventListener('load', fetchAdvice)
+// window.addEventListener('load', fetchAdvice)
