@@ -2,7 +2,6 @@
 
 
 
-
 let quoteBtn = document.querySelector('#quote-btn')
 
 
@@ -14,8 +13,10 @@ async function fetchAdvice() {
         document.getElementById('advice-tag').innerText = `ADVICE #${data.slip.id}`;
         document.getElementById('word-tag').innerText = `"${data.slip.advice}"`
     } catch (error) {
-        
+        console.log(error);
     }
 }
 
-// window.addEventListener('load', fetchAdvice)
+
+
+
