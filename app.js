@@ -2,7 +2,6 @@
 
 
 
-let quoteBtn = document.querySelector('#quote-btn')
 
 
 async function fetchAdvice() {

@@ -73,15 +73,11 @@ main {
 
 
 @media (max-width: 767px) {
-/* 
-    body {
-        margin: 0 17px;
-    } */
-   
+
 
     main {
         width: 93%;
-        padding: 2.4rem 1.4rem;
+        padding: 2rem 1.4rem;
     
     }
 
