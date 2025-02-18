@@ -89,6 +89,10 @@ main {
         font-size: 25px;
     }
 
+    #advice-tag {
+        padding-top: 10px;
+    }
+
     .dice-circle {
         background-color: var(--neon-green);
         width: 60px;
