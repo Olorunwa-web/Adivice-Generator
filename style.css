@@ -116,6 +116,10 @@ main {
         width: 65%;
     }
 
+    .mobile {
+        display: none;
+    }
+
     .dice-image {
         margin: 0 auto;
         padding-top: 16px;
